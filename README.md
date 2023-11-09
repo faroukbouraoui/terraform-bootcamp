@@ -15,3 +15,12 @@ eg . `1.0.1`
 
 https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
 
+## Install aws CLI with script and configure credientials
+
+gp env aws_access_key_id
+gp env aws_serect_key
+gp env default_region
+
+**PS**: **don't forget to make your scripts executable**
+
+
