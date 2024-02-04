@@ -9,6 +9,7 @@ tasks:
       ./bin/install_aws_cli
   - name: execute python script
     before: |
+      chmod 777 /bin/python-script.py
       ./bin/python-script.py
 vscode:
   extensions:
