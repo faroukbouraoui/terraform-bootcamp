@@ -7,6 +7,9 @@ tasks:
       AWS_CLI_AUTO_PROMPT: on-partial
     before: |
       ./bin/install_aws_cli
+  - name: execute python script
+    before: |
+      ./bin/python-script.py
 vscode:
   extensions:
     - amazonwebservices.aws-toolkit-vscode
